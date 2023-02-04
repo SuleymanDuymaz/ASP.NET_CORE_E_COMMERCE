@@ -20,13 +20,37 @@ namespace WebAPI.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
-        public string Get()
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
             //dependenyc chain
            var result=_productService.GetAll();
-            return result.Message;
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result);
        
+        }
+        [HttpPost("add")]
+        public IActionResult Add(Product product)
+        {
+            var result = _productService.Add(product);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getbydcategoryıd")]
+        public IActionResult GetByCategoryId(int id)
+        {
+            var result = _productService.GetAllByCategoryId(id);
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result);
         }
     }
 }
