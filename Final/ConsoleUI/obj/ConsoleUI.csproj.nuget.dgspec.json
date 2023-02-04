@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\Business.csproj": {
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\obj\\",
+        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\süleyman\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -55,7 +52,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,24 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\ConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,14 +90,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Business\\Business.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj"
               },
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -122,7 +117,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -131,15 +127,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj": {
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -150,20 +146,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
               },
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -207,7 +200,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -216,24 +210,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj": {
+    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\süleyman\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -247,8 +238,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Masaüstü\\VS29\\Final\\Core\\Core.csproj"
+              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
               }
             }
           }
@@ -268,7 +259,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -277,7 +269,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

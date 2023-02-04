@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
@@ -17,7 +18,7 @@ namespace Business.Concrete
     //iş sınıfı başka sınıfları newlemez
     public class ProductManager : IProductService
     {
-        IProductDal _productDal;
+        IProductDal _productDal;    
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
@@ -27,31 +28,32 @@ namespace Business.Concrete
         {
             if (product.ProductName.Length<2)
             {
-                return new ErrorResult("Ürün ismi 2 karakterden fazla olmalıdır");
+                return new ErrorResult(Messages.ProductNameInvalid);
             }
             _productDal.Add(product);
             return new Result(true,"Ürün Eklendi");
         }
 
-        public List<Product> GetAll()
+        public IDataResult<List<Product>> GetAll()
         {
-            return _productDal.GetAll();
+            return new DataResult<List<Product>>(_productDal.GetAll(),true,"Ürünler listelendi");
         }
 
-        public List<Product> GetAllByCategoryId(int id)
+        public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return _productDal.GetAll(p=>p.CategoryID==id);
+            return new DataResult<List<Product>>(_productDal.GetAll(), true, "Ürünler listelendi"); 
 
         }
 
-        public List<Product> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return _productDal.GetAll(p=>p.UnitPrice<=min && p.UnitPrice<=max);
+            return new DataResult<List<Product>>(_productDal.GetAll(), true, "Ürünler listelendi");
         }
 
-        public List<ProductDetailDto> GetProductDetails()
+        public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            return _productDal.GetProductDetails();
+           //return new DataResult<List<ProductDetailDto>>( true, "Ürünler listelendi");
+           
         }
     }
 }

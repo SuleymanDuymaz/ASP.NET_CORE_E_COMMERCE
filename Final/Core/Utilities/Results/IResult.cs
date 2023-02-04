@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Results
 {
+
+    //temel void işlemleri için kullanılan alan burasıdır. sonuç ve message döner 
+
     public interface IResult
     {
         bool Success { get; }
