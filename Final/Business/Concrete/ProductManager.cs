@@ -36,24 +36,33 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> GetAll()
         {
-            return new DataResult<List<Product>>(_productDal.GetAll(),true,"Ürünler listelendi");
+            if (DateTime.Now.Hour==11)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.Maintenance);
+            }
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);
         }
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return new DataResult<List<Product>>(_productDal.GetAll(), true, "Ürünler listelendi"); 
+
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.CategoryID==id), "Ürünler listelendi"); 
 
         }
 
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return new DataResult<List<Product>>(_productDal.GetAll(), true, "Ürünler listelendi");
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.UnitPrice>=min & p.UnitPrice<=max), "Ürünler listelendi");
         }
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-           //return new DataResult<List<ProductDetailDto>>( true, "Ürünler listelendi");
-           
+            if (DateTime.Now.Hour == 11)
+            {
+                return new ErrorDataResult<List<ProductDetailDto>>(Messages.Maintenance);
+            }
+            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
+
         }
     }
 }
