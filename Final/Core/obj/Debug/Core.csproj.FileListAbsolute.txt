@@ -172,3 +172,12 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Cor
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Core.pdb
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\FluentValidation.dll
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\FluentValidation.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.Extensions.DependencyInjection.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.Extras.DynamicProxy.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Castle.Core.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.Extensions.DependencyInjection.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.Extras.DynamicProxy.pdb
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Autofac.Extras.DynamicProxy.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\Castle.Core.xml

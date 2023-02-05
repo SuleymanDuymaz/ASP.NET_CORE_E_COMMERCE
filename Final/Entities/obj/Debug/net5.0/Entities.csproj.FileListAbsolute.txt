@@ -65,8 +65,6 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Entities.pdb
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Core.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -78,8 +76,6 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Core.pdb
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Core.dll.config
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.xml
-C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.xml
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.xml
@@ -100,3 +96,5 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\ref\Entities.dll
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\FluentValidation.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Castle.Core.xml

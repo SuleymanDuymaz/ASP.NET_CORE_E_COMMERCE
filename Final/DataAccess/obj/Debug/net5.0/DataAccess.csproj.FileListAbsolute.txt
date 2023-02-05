@@ -66,3 +66,5 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Deb
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\bin\Debug\net5.0\FluentValidation.xml
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\bin\Debug\net5.0\Castle.Core.xml
