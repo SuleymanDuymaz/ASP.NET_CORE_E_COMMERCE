@@ -35,9 +35,9 @@ namespace WebAPI
             //IOC burada yapýlýyor birisi  cons alanýnda IproductService kullanýrsa ProductManager çaðýrýr  
 
             //  AutoFact,Ninject,CastleWindsor,StructreMap,LightInject,DryInject IOC
-            services.AddSingleton<IProductService, ProductManager>();
+            //services.AddSingleton<IProductService, ProductManager>();
             //productdal baðýmlýlýðýný da ortadan kaldýrmak içini
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductDal, EfProductDal>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });

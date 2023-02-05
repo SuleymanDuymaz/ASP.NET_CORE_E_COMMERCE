@@ -1,10 +1,13 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +24,7 @@ namespace Business.Concrete
         IProductDal _productDal;    
         public ProductManager(IProductDal productDal)
         {
+            //zayıf bağımlılık
             _productDal = productDal;
         }
 
@@ -34,10 +38,17 @@ namespace Business.Concrete
         //[Performance]
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length<2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
+
+            //bu alanlar core/crosscuttingconcerns validationtool alanında kodlandı çağırma işlemi kaldı sadece
+
+            //var context = new ValidationContext<Product>(product);
+            //ProductValidator productValidator=new ProductValidator();
+            //var result=productValidator.Validate(context);
+            //if (!result.IsValid)
+            //{
+            //    throw new ValidationException(result.Errors);
+            //}
+            ValidationTool.Validate(new ProductValidator(),product);
             _productDal.Add(product);
             return new Result(true,"Ürün Eklendi");
         }

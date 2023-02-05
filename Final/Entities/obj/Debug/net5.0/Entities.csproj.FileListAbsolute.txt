@@ -98,3 +98,5 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\refint\Entities.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\Entities.pdb
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\FluentValidation.xml

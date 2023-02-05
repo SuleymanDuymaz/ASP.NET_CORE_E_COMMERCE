@@ -11,7 +11,7 @@
         "projectName": "Business",
         "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
+        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -221,7 +235,7 @@
         "projectName": "Entities",
         "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",

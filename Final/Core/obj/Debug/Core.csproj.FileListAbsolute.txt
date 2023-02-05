@@ -170,3 +170,5 @@ C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Cor
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Core.csproj.CopyComplete
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Core.dll
 C:\Users\süleyman\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Core\obj\Debug\Core.pdb
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\FluentValidation.dll
+C:\Users\süleyman\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Core\bin\Debug\FluentValidation.xml
