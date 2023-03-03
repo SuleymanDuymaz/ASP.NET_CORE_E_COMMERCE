@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
+        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,14 +104,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj"
               },
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -141,15 +141,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -160,17 +160,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,11 +184,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
               },
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj"
               }
             }
           }
@@ -224,21 +224,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,8 +252,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\süleyman\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
+              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
               }
             }
           }
@@ -283,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

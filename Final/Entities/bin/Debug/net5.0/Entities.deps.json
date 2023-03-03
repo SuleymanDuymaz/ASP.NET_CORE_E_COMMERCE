@@ -19,6 +19,14 @@
           "Core.dll": {}
         }
       },
+      "Castle.Core/4.0.0.0": {
+        "runtime": {
+          "Castle.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/3.1.28.0": {
         "runtime": {
           "Microsoft.EntityFrameworkCore.dll": {
@@ -27,19 +35,11 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.28.0": {
+      "FluentValidation/11.0.0.0": {
         "runtime": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "3.1.28.0",
-            "fileVersion": "3.100.2822.36305"
-          }
-        }
-      },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
-        "runtime": {
-          "Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.20.21406"
+          "FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.4.0.0"
           }
         }
       },
@@ -120,17 +120,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Castle.Core/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.EntityFrameworkCore/3.1.28.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.28.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0.0": {
+    "FluentValidation/11.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
