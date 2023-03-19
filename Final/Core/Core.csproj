@@ -175,6 +175,9 @@
     <Compile Include="CrossCuttingConcerns\Validation\ValidationTool.cs" />
     <Compile Include="DataAccess\EntityFramework\EfEntityRepositoryBase.cs" />
     <Compile Include="DataAccess\IEntityRepository.cs" />
+    <Compile Include="Entities\Concrete\OperationClaim.cs" />
+    <Compile Include="Entities\Concrete\User.cs" />
+    <Compile Include="Entities\Concrete\UserOperationClaim.cs" />
     <Compile Include="Entities\IDto.cs" />
     <Compile Include="Entities\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
