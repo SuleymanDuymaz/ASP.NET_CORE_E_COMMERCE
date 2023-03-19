@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Entities.Concrete
 {
-    internal class OperationClaim
+    public class OperationClaim:IEntity
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

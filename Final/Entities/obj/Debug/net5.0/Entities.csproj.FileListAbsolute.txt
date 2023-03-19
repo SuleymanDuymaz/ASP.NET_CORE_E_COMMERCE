@@ -136,3 +136,9 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\refint\Entities.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\Entities.pdb
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.xml
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Newtonsoft.Json.xml
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.xml
