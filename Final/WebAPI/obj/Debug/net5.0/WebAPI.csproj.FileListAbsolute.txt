@@ -146,3 +146,4 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.sourcelink.json

@@ -90,3 +90,4 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\n
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\DataAccess\obj\Debug\net5.0\DataAccess.sourcelink.json

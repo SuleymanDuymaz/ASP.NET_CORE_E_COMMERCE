@@ -142,3 +142,4 @@ C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net
 C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.xml
 C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Newtonsoft.Json.xml
 C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.xml
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\Entities\obj\Debug\net5.0\Entities.sourcelink.json

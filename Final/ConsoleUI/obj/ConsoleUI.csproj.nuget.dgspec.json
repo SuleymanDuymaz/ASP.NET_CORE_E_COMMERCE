@@ -11,7 +11,7 @@
         "projectName": "Business",
         "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sduym\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -87,7 +92,7 @@
         "projectName": "ConsoleUI",
         "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sduym\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,6 +125,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -141,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -167,7 +177,7 @@
         "projectName": "DataAccess",
         "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sduym\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -197,6 +207,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -224,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -235,7 +250,7 @@
         "projectName": "Entities",
         "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sduym\\Source\\Repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -262,6 +277,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -283,7 +303,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

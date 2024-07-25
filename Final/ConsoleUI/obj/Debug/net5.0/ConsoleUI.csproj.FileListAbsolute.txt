@@ -290,3 +290,4 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\ConsoleUI\obj\Debug\ne
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\ConsoleUI\obj\Debug\net5.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\ConsoleUI\obj\Debug\net5.0\ConsoleUI.sourcelink.json

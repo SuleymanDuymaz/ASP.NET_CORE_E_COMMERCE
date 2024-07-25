@@ -19,6 +19,14 @@
           "Core.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Tokens/5.5.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.5.0.0",
+            "fileVersion": "5.5.0.60624"
+          }
+        }
+      },
       "Castle.Core/4.0.0.0": {
         "runtime": {
           "Castle.Core.dll": {
@@ -40,6 +48,22 @@
           "FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.4.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1.20720"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.5.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.5.0.0",
+            "fileVersion": "5.5.0.60624"
           }
         }
       },
@@ -120,6 +144,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.IdentityModel.Tokens/5.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Castle.Core/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -131,6 +160,16 @@
       "sha512": ""
     },
     "FluentValidation/11.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/5.5.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

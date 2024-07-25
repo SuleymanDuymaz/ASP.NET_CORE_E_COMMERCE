@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class NorthwindContext:DbContext
+    public class NorthwindContext : DbContext
     {
         //sql clent htası var ise connection string yanlıştır.
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-9L38DMG;Database=Northwind;Trusted_Connection=true"); 
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-9L38DMG;Database=Northwind;Trusted_Connection=true");
 
         }
         public DbSet<Product> Products { get; set; }

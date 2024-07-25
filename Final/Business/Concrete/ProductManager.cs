@@ -23,6 +23,8 @@ namespace Business.Concrete
     //iş sınıfı başka sınıfları newlemez
     public class ProductManager : IProductService
     {
+
+        //entity manager başka bir dal ı kullanmaz.
         IProductDal _productDal;
         ICategoryService _categoryService;
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
@@ -45,31 +47,30 @@ namespace Business.Concrete
         {
 
             //bu alanlar core/crosscuttingconcerns validationtool alanında kodlandı çağırma işlemi kaldı sadece
+            //log
+            //cache
+            //yetkinlendirme
+            //transaction   
+            //performancce
 
-            //var context = new ValidationContext<Product>(product);
-            //ProductValidator productValidator=new ProductValidator();
-            //var result=productValidator.Validate(context);
-            //if (!result.IsValid)
-            //{
-            //    throw new ValidationException(result.Errors);
-            //}
-            //ValidationTool.Validate(new ProductValidator(),product);
-            IResult result=BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryID),               
+       
+
+            IResult result1 = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryID),
                 CheckIfProductNameExist(product.ProductName));
 
-
-
-
-            if (result!=null)
-            {
-                return result;  
-            }
-
             _productDal.Add(product);
+
+
+            //if (result!=null)
+            //{
+            //    return result;  
+            //}
+
+            //_productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
 
-            
-            
+
+
         }
 
         public IDataResult<List<Product>> GetAll()
