@@ -100,7 +100,6 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -140,10 +139,11 @@ C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
-C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\refint\WebAPI.dll
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\sduym\Source\Repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.sourcelink.json
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\sduym\source\repos\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.csproj.Up2Date

@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Validation;
@@ -42,6 +43,7 @@ namespace Business.Concrete
         //[RemoveCache]
         //[Transaction]
         //[Performance]
+        [SecuredOperation("product.add, admin")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
@@ -91,7 +93,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.UnitPrice>=min & p.UnitPrice<=max), "Ürünler listelendi");
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.Price>=min & p.Price<=max), "Ürünler listelendi");
         }
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
