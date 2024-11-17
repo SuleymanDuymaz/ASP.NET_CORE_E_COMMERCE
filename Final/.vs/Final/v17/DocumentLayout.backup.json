@@ -30,17 +30,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\AuthManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\AuthManager.cs*",
-              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDYAAABFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:53:19.533Z",
               "EditorCaption": ""
@@ -57,14 +65,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:53:05.462Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
               "$type": "Document",
