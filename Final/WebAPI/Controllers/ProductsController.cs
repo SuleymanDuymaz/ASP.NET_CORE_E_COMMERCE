@@ -29,8 +29,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result.Data);
             }
-            return BadRequest(result);
-       
+            return BadRequest(result);      
         }
         [HttpPost("add")]
         public IActionResult Add(Product product)

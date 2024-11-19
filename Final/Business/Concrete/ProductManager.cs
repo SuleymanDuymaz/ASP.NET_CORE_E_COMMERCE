@@ -2,6 +2,7 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspect.Autofac.Caching;
 using Core.Aspect.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -44,7 +45,10 @@ namespace Business.Concrete
         //[Transaction]
         //[Performance]
         [SecuredOperation("product.add, admin")]
+       
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
+        //IProductService.Get in cache olayını siler.      [CacheRemoveAspect("Get")] böyle kullanılırsa içinde get olan her şeyi siler.
         public IResult Add(Product product)
         {
 
@@ -74,7 +78,7 @@ namespace Business.Concrete
 
 
         }
-
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour==16)

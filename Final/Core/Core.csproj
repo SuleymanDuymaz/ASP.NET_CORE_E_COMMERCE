@@ -192,6 +192,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aspect\Autofac\Caching\CacheAspect.cs" />
+    <Compile Include="Aspect\Autofac\Caching\CacheRemoveAspect.cs" />
     <Compile Include="Aspect\Autofac\Validation\Class1.cs" />
     <Compile Include="CrossCuttingConcerns\Caching\ICacheService.cs" />
     <Compile Include="CrossCuttingConcerns\Caching\Microsoft\MemoryCacheManager.cs" />
