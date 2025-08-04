@@ -14,10 +14,10 @@ namespace Business.ValidationRules.FluentValidation
         {
             RuleFor(p => p.ProductName).NotEmpty();
             RuleFor(p => p.ProductName).MinimumLength(2);
-            RuleFor(p => p.Price).NotEmpty();
-            RuleFor(p => p.Price).GreaterThan(0);
-            RuleFor(p=>p.Price).GreaterThanOrEqualTo(10)
-                .When(p=>p.CategoryID==1);
+            //RuleFor(p => p.Price).NotEmpty();
+            //RuleFor(p => p.Price).GreaterThan(0);
+            //RuleFor(p=>p.Price).GreaterThanOrEqualTo(10)
+            //    .When(p=>p.CategoryID==1);
             RuleFor(p => p.ProductName).Must(StartWithA).WithMessage("Ürünler A harfi ile başlamalı");
 
         }

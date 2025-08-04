@@ -49,11 +49,10 @@ namespace Business.Concrete
 
             if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
             {
-                return new SuccessDataResult<User>(userToCheck, Messages.SuccessfulLogin);
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
-            return new ErrorDataResult<User>(Messages.PasswordError);
-            //return new SuccessDataResult<User>(userToCheck, Messages.SuccessfulLogin);
+
+            return new SuccessDataResult<User>(userToCheck, Messages.SuccessfulLogin);
         }
 
         public IResult UserExists(string email)

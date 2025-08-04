@@ -17,7 +17,7 @@
       "Core/1.0.0": {
         "runtime": {
           "Core.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -78,6 +78,14 @@
           }
         }
       },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.28.0": {
+        "runtime": {
+          "Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "3.1.28.0",
+            "fileVersion": "3.100.2822.36305"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Binder/3.1.28.0": {
         "runtime": {
           "Microsoft.Extensions.Configuration.Binder.dll": {
@@ -89,6 +97,14 @@
       "Microsoft.Extensions.DependencyInjection/3.1.28.0": {
         "runtime": {
           "Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.1.28.0",
+            "fileVersion": "3.100.2822.36305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/3.1.28.0": {
+        "runtime": {
+          "Microsoft.Extensions.Caching.Memory.dll": {
             "assemblyVersion": "3.1.28.0",
             "fileVersion": "3.100.2822.36305"
           }
@@ -150,14 +166,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.28.0": {
-        "runtime": {
-          "Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "3.1.28.0",
-            "fileVersion": "3.100.2822.36305"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Abstractions/3.1.28.0": {
         "runtime": {
           "Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -177,14 +185,6 @@
       "Microsoft.Extensions.Logging/3.1.28.0": {
         "runtime": {
           "Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "3.1.28.0",
-            "fileVersion": "3.100.2822.36305"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/3.1.28.0": {
-        "runtime": {
-          "Microsoft.Extensions.Caching.Memory.dll": {
             "assemblyVersion": "3.1.28.0",
             "fileVersion": "3.100.2822.36305"
           }
@@ -278,12 +278,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.28.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Extensions.Configuration.Binder/3.1.28.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "Microsoft.Extensions.DependencyInjection/3.1.28.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Caching.Memory/3.1.28.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -323,11 +333,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.28.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.EntityFrameworkCore.Abstractions/3.1.28.0": {
       "type": "reference",
       "serviceable": false,
@@ -339,11 +344,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Logging/3.1.28.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.Caching.Memory/3.1.28.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

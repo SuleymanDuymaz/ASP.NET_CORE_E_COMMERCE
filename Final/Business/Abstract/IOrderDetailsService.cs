@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IOrderDetailsService
+    public interface IOrderDetailService
     {
-        List<OrderDetail> GetAll();
+        IDataResult<List<OrderDetail>> GetList(int orderId);
     }
 }

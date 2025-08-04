@@ -1,14 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+    "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +20,21 @@
         "net472": {}
       }
     },
-    "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
+    "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\sduym\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sduym\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,15 +42,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
+              "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Core.csproj"
               }
             }
           }
@@ -59,7 +63,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net5.0": {
@@ -80,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
