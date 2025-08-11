@@ -32,7 +32,11 @@
               "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
               "ToolTip": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
               "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+>>>>>>> 69200bc83d4d8148b58fa0429c7f015666f58be6
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T10:36:42.674Z",
               "EditorCaption": ""
