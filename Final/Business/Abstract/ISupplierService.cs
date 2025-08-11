@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,9 @@ namespace Business.Abstract
 {
     public interface ISupplierService
     {
-        List<Supplier> GetAll();
+        IDataResult<List<Supplier>> GetList();
+        IDataResult<Supplier> GetById(int supplierId);
+        IResult Update(Supplier supplier);
+        IResult Add(Supplier supplier);
     }
 }

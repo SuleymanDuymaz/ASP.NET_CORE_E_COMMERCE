@@ -32,19 +32,10 @@ namespace WebAPI
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
             services.AddControllers();
-
-            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //IOC burada yapýlýyor birisi  cons alanýnda IproductService kullanýrsa ProductManager çaðýrýr  
-
-            //  AutoFact,Ninject,CastleWindsor,StructreMap,LightInject,DryInject IOC
-            //services.AddSingleton<IProductService, ProductManager>();
-            //productdal baðýmlýlýðýný da ortadan kaldýrmak içini
-            //services.AddSingleton<IProductDal, EfProductDal>();
 
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -85,6 +76,8 @@ namespace WebAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

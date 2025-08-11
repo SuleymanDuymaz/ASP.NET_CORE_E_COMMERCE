@@ -3,7 +3,9 @@ using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Caching;
+using Core.Aspect.Autofac.Transaction;
 using Core.Aspect.Autofac.Validation;
+using Core.Aspects.Autofac.Performance;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -16,128 +18,102 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-
-
-    //iş sınıfı başka sınıfları newlemez
     public class ProductManager : IProductService
     {
+        private IProductDal _productDal;
+        private ICategoryService _categoryService;
 
-        //entity manager başka bir dal ı kullanmaz.
-        IProductDal _productDal;
-        ICategoryService _categoryService;
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
-            //zayıf bağımlılık
             _productDal = productDal;
             _categoryService = categoryService;
         }
 
+        public IDataResult<Product> GetById(int productId)
+        {
+            return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductID == productId));
+        }
+        //  [SecuredOperation("Product.List,admin")]
+        [PerformanceAspect(5)]
+        [CacheAspect(duration: 10)]
+        public IDataResult<List<Product>> GetList()
+        {
+            //Thread.Sleep(5000);
+            return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
+        }
+
+        [SecuredOperation("Product.List,admin")]
+       // [LogAspect(typeof(FileLogger))]
+        [CacheAspect(duration: 10)]
+        public IDataResult<List<Product>> GetListByCategory(int categoryId)
+        {
+            return new SuccessDataResult<List<Product>>(_productDal.GetList(p => p.CategoryID == categoryId).ToList());
+        }
 
 
-        //AOP*AUTOFac
-        //[LogAspect]
-        //[Validate]
-        //[RemoveCache]
-        //[Transaction]
-        //[Performance]
-        [SecuredOperation("product.add, admin")]
-       
-        [ValidationAspect(typeof(ProductValidator))]
+        //[ValidationAspect(typeof(ProductValidator), Priority = 1)]
+        //  [SecuredOperation("Product.List,admin")]
         [CacheRemoveAspect("IProductService.Get")]
-        //IProductService.Get in cache olayını siler.      [CacheRemoveAspect("Get")] böyle kullanılırsa içinde get olan her şeyi siler.
         public IResult Add(Product product)
         {
+            //IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),CheckIfCategoryIsEnabled());
 
-            //bu alanlar core/crosscuttingconcerns validationtool alanında kodlandı çağırma işlemi kaldı sadece
-            //log
-            //cache
-            //yetkinlendirme
-            //transaction   
-            //performancce
-
-       
-
-            IResult result1 = BusinessRules.Run(CheckIfProductCountOfCategoryCorrect(product.CategoryID),
-                CheckIfProductNameExist(product.ProductName));
-
-            _productDal.Add(product);
-
-
-            //if (result!=null)
+            //if (result != null)
             //{
-            //    return result;  
+            //    return result;
             //}
-
-            //_productDal.Add(product);
+            _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
-
-
-
-        }
-        [CacheAspect]
-        [SecuredOperation("product.add, admin")]
-        public IDataResult<List<Product>> GetAll()
-        {
-            if (DateTime.Now.Hour==16)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.Maintenance);
-            }
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);
         }
 
-        public IDataResult<List<Product>> GetAllByCategoryId(int id)
+        private IResult CheckIfProductNameExists(string productName)
         {
 
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.CategoryID==id), "Ürünler listelendi"); 
-
-        }
-
-        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
-        {
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.Price>=min & p.Price<=max), "Ürünler listelendi");
-        }
-
-        public IDataResult<List<ProductDetailDto>> GetProductDetails()
-        {
-            if (DateTime.Now.Hour == 11)
-            {
-                return new ErrorDataResult<List<ProductDetailDto>>(Messages.Maintenance);
-            }
-            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
-
-        }
-
-        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
-        {
-            var result = _productDal.GetAll(p=>p.CategoryID==categoryId).Count;
-            if (result > 15)
-            {
-                return new ErrorResult(Messages.ProductCountOfCategoryError);
-            }
-            return new SuccessResult();
-        }
-
-        private IResult CheckIfProductNameExist(string productName)
-        {
-            var result = _productDal.GetAll(p => p.ProductName == productName).Any();
+            var result = _productDal.GetList(p => p.ProductName == productName).Any();
             if (result)
             {
-                return new ErrorResult(Messages.ProductCountOfCategoryError);
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
+
             return new SuccessResult();
         }
-        private IResult ChechkIfCategoryNameExceded()
+
+        private IResult CheckIfCategoryIsEnabled()
         {
-            var result = _categoryService.GetAll();
-            if (result.Data.Count>=15)
+            var result = _categoryService.GetList();
+            if (result.Data.Count < 10)
             {
-               return new ErrorResult(Messages.CategoryCountExceded);
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
+
             return new SuccessResult();
+        }
+
+        public IResult Delete(Product product)
+        {
+            _productDal.Delete(product);
+            return new SuccessResult(Messages.ProductDeleted);
+        }
+
+        public IResult Update(Product product)
+        {
+
+            _productDal.Update(product);
+            return new SuccessResult(Messages.ProductUpdated);
+        }
+
+        [TransactionScopeAspect]
+        public IResult TransactionalOperation(Product product)
+        {
+            _productDal.Update(product);
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductUpdated);
         }
     }
+
 }

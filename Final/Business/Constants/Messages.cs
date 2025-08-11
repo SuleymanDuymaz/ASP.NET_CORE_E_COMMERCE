@@ -10,20 +10,39 @@ namespace Business.Constants
 {
     public static class Messages
     {
-        public static string ProductAdded = "Ürün eklendi";
-        public static string ProductNameInvalid = "Ürün ismi geçersiz";
-        public static string Maintenance="Sistem bakımda";
-        public static string ProductListed="Ürünler listelendi";
-        public static string ProductCountOfCategoryError = "Bu kategoriye daha fazla ürün eklenemez";
+        public static string ProductAdded = "Ürün başarıyla eklendi";
+        public static string ProductDeleted = "Ürün başarıyla silindi";
+        public static string ProductUpdated = "Ürün başarıyla güncellendi";
 
-        public static string CategoryCountExceded = "Kategori limiti aşıldığı için bu kategoriye alan eklenemez";
-        internal static string AuthorizationDenied="Yetkiniz yok.";
+        public static string CategoryUpdated = "Kategori başarıyla güncellendi";
 
-        public static string UserRegistered = "Kullanıcı oluşturuldu.";
-        public static string UserNotFound = "Kullanıcı bulunamadı.";
-        public static string PasswordError = "Şifre hatalı.";
-        public static string SuccessfulLogin = "Giriş başarıı";
-        public static string UserAlreadyExists = "Kullanıcı zaten mevcut";
-        public static string AccessTokenCreated = "Token oluşturuldu";
+
+
+        public static string ShipperUpdated = "Gönderici başarıyla güncellendi";
+        public static string ShipperAdded = "Gönderici başarıyla eklendi";
+
+
+        public static string EmployeeAdded = "Gönderici başarıyla eklendi";
+        public static string EmployeeUpdated = "Gönderici başarıyla güncellendi";
+
+        public static string TerritoryAdded = "Bölge başarıyla eklendi";
+        public static string TerritoryUpdated = "Bölge başarıyla güncellendi";
+        public static string TerritoryDeleted = "Bölge başarıyla silindi";
+
+
+
+        public static string SupplierAdded = "Tedarikçi başarıyla eklendi";
+        public static string SupplierUpdated = "Tedarikçi başarıyla güncellendi";
+
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Sisteme giriş başarılı";
+        public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
+        public static string UserRegistered = "Kullanıcı başarıyla kaydedildi";
+        public static string AccessTokenCreated = "Access token başarıyla oluşturuldu";
+
+        public static string AuthorizationDenied = "Yetkiniz yok";
+        public static string ProductNameAlreadyExists = "Ürün ismi zaten mevcut";
+
     }
 }

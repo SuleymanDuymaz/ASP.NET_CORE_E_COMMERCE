@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\",
+  "WorkspaceRootPath": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\sduym\\source\\repos\\asp.net_core_e_commerce\\final\\core\\aspect\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\aspect\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\source\\repos\\asp.net_core_e_commerce\\final\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|c:\\users\\sduym\\source\\repos\\asp.net_core_e_commerce\\final\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|c:\\users\\sduym\\source\\repos\\asp.net_core_e_commerce\\final\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|c:\\users\\sduym\\source\\repos\\asp.net_core_e_commerce\\final\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|c:\\users\\sduym\\source\\repos\\asp.net_core_e_commerce\\final\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9AB39D37-3D7A-40B9-BEF8-E87C40373350}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\core\\aspect\\autofac\\exception\\exceptionlogaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\aspect\\autofac\\exception\\exceptionlogaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T04:25:41.873Z"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CacheAspect.cs",
-              "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspect\\Autofac\\Caching\\CacheAspect.cs",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeToolTip": "Core\\Aspect\\Autofac\\Caching\\CacheAspect.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvx0AAAAMAAAAAAAAAA==",
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T04:23:29.188Z",
+              "WhenOpened": "2025-08-10T10:36:42.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T04:24:26.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T04:24:19.297Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\sduym\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAmwFEAAAAwAAAAAAAAAA==",
+              "Title": "ExceptionLogAspect.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "ToolTip": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "RelativeToolTip": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T21:15:11.305Z"
+              "WhenOpened": "2025-08-10T10:34:24.338Z"
             }
           ]
         }

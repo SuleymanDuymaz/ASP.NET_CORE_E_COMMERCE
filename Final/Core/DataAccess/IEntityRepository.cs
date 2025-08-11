@@ -22,7 +22,7 @@ namespace Core.DataAccess
         //generic repository pattern
 
         //getallby category gibi
-        List<T> GetAll(Expression<Func<T,bool>> filter=null);
+        List<T> GetList(Expression<Func<T,bool>> filter=null);
          
         T Get(Expression<Func<T, bool>> filter);
         // List<T> getAllByCategory(int categoryId);
