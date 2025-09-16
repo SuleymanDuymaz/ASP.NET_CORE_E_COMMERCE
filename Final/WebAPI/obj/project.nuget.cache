@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQ1h3IEUD7k=",
+  "dgSpecHash": "9eDRG033yME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

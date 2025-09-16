@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\",
+  "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\source\\repos\\asp.net_core_e_commerce\\final\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\core\\crosscuttingconcerns\\logging\\log4net\\loggerservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\logging\\log4net\\loggerservicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\core\\aspect\\autofac\\exception\\exceptionlogaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\core\\crosscuttingconcerns\\logging\\log4net\\loggers\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\logging\\log4net\\loggers\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\core\\crosscuttingconcerns\\logging\\log4net\\loggers\\databaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\logging\\log4net\\loggers\\databaselogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\core\\aspect\\autofac\\logging\\logaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\aspect\\autofac\\logging\\logaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\core\\aspect\\autofac\\exception\\exceptionlogaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\aspect\\autofac\\exception\\exceptionlogaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\business\\concrete\\orderdetailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|solutionrelative:business\\concrete\\orderdetailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|solutionrelative:business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3359B-C202-46AF-91CA-FA4168FC4E81}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|c:\\users\\monster\\desktop\\asp.net_core_e_commerce\\final\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6A4F8E-960F-4256-A173-61DD996D1EF5}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,31 +55,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AspectInterceptorSelector.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "ToolTip": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
->>>>>>> 69200bc83d4d8148b58fa0429c7f015666f58be6
+              "Title": "LoggerServiceBase.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\LoggerServiceBase.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\LoggerServiceBase.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\LoggerServiceBase.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\LoggerServiceBase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:36:42.674Z",
+              "WhenOpened": "2025-09-16T09:47:12.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExceptionLogAspect.cs",
-              "DocumentMoniker": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
-              "ToolTip": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
-              "RelativeToolTip": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\FileLogger.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\FileLogger.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\FileLogger.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\FileLogger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:34:24.338Z"
+              "WhenOpened": "2025-09-16T09:47:10.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\DatabaseLogger.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\DatabaseLogger.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\DatabaseLogger.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Logging\\Log4Net\\Loggers\\DatabaseLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:47:07.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogAspect.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Logging\\LogAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspect\\Autofac\\Logging\\LogAspect.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Logging\\LogAspect.cs",
+              "RelativeToolTip": "Core\\Aspect\\Autofac\\Logging\\LogAspect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:46:54.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\OrderManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:45:10.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetailManager.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\OrderDetailManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderDetailManager.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Concrete\\OrderDetailManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderDetailManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:44:43.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAArwDUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:44:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:43:50.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionLogAspect.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "RelativeToolTip": "Core\\Aspect\\Autofac\\Exception\\ExceptionLogAspect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:43:50.901Z",
+              "EditorCaption": ""
             }
           ]
         }

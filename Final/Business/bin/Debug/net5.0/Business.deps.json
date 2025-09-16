@@ -1478,6 +1478,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "log4net/3.1.0.0": {
+        "runtime": {
+          "log4net.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
       }
     }
   },
@@ -2493,6 +2501,11 @@
     },
     "Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "log4net/3.1.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

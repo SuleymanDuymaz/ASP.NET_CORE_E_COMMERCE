@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JqgglVzHOq4=",
+  "dgSpecHash": "kjgWQ//lPYo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Monster\\source\\repos\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\Monster\\Desktop\\ASP.NET_CORE_E_COMMERCE\\Final\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Monster\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Monster\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
