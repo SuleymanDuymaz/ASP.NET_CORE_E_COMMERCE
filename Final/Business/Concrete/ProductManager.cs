@@ -3,9 +3,11 @@ using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Caching;
+using Core.Aspect.Autofac.Logging;
 using Core.Aspect.Autofac.Transaction;
 using Core.Aspect.Autofac.Validation;
 using Core.Aspects.Autofac.Performance;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -23,6 +25,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
+    [SecuredOperation("admin")]
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
@@ -38,7 +41,7 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductID == productId));
         }
-        //  [SecuredOperation("Product.List,admin")]
+      
         [PerformanceAspect(5)]
         [CacheAspect(duration: 10)]
         public IDataResult<List<Product>> GetList()
@@ -47,7 +50,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
         }
 
-        [SecuredOperation("Product.List,admin")]
+        
        // [LogAspect(typeof(FileLogger))]
         [CacheAspect(duration: 10)]
         public IDataResult<List<Product>> GetListByCategory(int categoryId)
@@ -57,7 +60,6 @@ namespace Business.Concrete
 
 
         //[ValidationAspect(typeof(ProductValidator), Priority = 1)]
-        //  [SecuredOperation("Product.List,admin")]
         [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {

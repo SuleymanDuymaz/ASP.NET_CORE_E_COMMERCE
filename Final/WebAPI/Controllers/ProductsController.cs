@@ -40,12 +40,11 @@ namespace WebAPI.Controllers
         public IActionResult GetListByCategory(int categoryId)
         {
             var result = _productService.GetListByCategory(categoryId);
-            if (result.Success)
-            {
+          
                 return Ok(result.Data);
-            }
+            
 
-            return BadRequest(result.Message);
+         //   return BadRequest(result.Message);
         }
 
         [HttpGet("getbyid")]

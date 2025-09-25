@@ -260,7 +260,6 @@ C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
@@ -290,7 +289,6 @@ C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Newtonsoft.Json.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.xml
-C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\Entities\bin\Debug\net5.0\Microsoft.Bcl.HashCode.xml

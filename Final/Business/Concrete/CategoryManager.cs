@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -13,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
+    //[SecuredOperation("admin")]
     public class CategoryManager : ICategoryService
     {
         private ICategoryDal _categoryDal;

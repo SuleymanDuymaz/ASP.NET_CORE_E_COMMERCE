@@ -284,7 +284,6 @@ C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\D
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Entities.pdb
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\log4net.pdb
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\log4net.xml
-C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.xml
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.csproj.AssemblyReference.cache
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Monster\Desktop\ASP.NET_CORE_E_COMMERCE\Final\WebAPI\obj\Debug\net5.0\WebAPI.AssemblyInfoInputs.cache
